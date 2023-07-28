@@ -1,0 +1,27 @@
+{
+  "name": "threejstemplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.7",
+    "@types/three": "^0.144.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.19",
+    "dat.gui": "^0.7.9",
+    "glsl-curl-noise": "^0.0.4",
+    "glsl-curl-noise2": "^0.0.4",
+    "glsl-noise": "^0.0.0",
+    "glslify": "^7.1.1",
+    "gsap": "^3.11.2",
+    "three": "^0.145.0"
+  }
+}

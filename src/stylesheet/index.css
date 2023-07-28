@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Nunito+Sans:wght@400;700&display=swap');
+
+body,
+html {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: 'Marcellus SC', serif;
+}
+
+
+.buttons {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 100;
+}
+
+.buttons button {
+  display: block;
+  background-color: #000;
+  color: #fff;
+  padding: 16px 30px;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.sec {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100svh;
+  padding: 30px;
+}
+
+.sec h2 {
+  font-size: 8vw;
+  font-weight: bold;
+}
+
+.github {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: block;
+  width: 50px;
+}
+
+.github img {
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .sec h2{
+      font-size: 11vw;
+  }
+  .github {
+  width: 30px;
+}
+}
